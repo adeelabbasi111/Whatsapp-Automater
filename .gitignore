@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# PyCharm files
+.idea/
+
+# Environment secrets
+.env
+
+# Build files
+dist/
+build/
+
+# EXE files
+*.exe
+
+# Logs
+*.log

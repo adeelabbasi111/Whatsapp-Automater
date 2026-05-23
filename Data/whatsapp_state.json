@@ -1,0 +1,140 @@
+{
+  "sent": {
+    "+923334388816": {
+      "name": "Nida",
+      "time": "2026-04-28T17:52:22.806663",
+      "preview": "Salam Nida!`Mosquitoes aur dengue ke barhtay khatr"
+    },
+    "+923215506295": {
+      "name": "Rafique",
+      "time": "2026-04-28T17:54:50.380236",
+      "preview": "AOA Rafique!`Aaj kal har ghar mein mosquito proble"
+    },
+    "+923008506822": {
+      "name": "Walayat",
+      "time": "2026-04-28T17:59:43.304813",
+      "preview": "Salam Walayat!`Hum 'Mosquito Busters PK' service s"
+    },
+    "+923135000051": {
+      "name": "Asif",
+      "time": "2026-04-28T18:17:14.419424",
+      "preview": "Salam Asif!`Hum 'Mosquito Busters PK' service star"
+    },
+    "+923007977055": {
+      "name": "Saim",
+      "time": "2026-04-28T18:34:59.773214",
+      "preview": "Salam Saim!`Garmiyon mein mosquitoes avoid karna m"
+    },
+    "+923336110782": {
+      "name": "Najam",
+      "time": "2026-04-28T18:37:29.461074",
+      "preview": "AOA Najam!`Aaj kal har ghar mein mosquito problem "
+    },
+    "+923349990222": {
+      "name": "Zahida",
+      "time": "2026-04-28T18:40:29.021178",
+      "preview": "Salam Zahida!`Mosquitoes aur dengue ke barhtay kha"
+    },
+    "+923215155630": {
+      "name": "Afzal",
+      "time": "2026-04-28T20:29:09.505125",
+      "preview": "Salam Afzal!`Dengue season shuru ho raha hai aur m"
+    },
+    "+923458501717": {
+      "name": "Sajid",
+      "time": "2026-04-28T20:32:17.333234",
+      "preview": "AOA Sajid!`Hum 'Mosquito Busters PK' ke naam se pr"
+    },
+    "+923215225889": {
+      "name": "Shahid",
+      "time": "2026-04-28T20:35:05.906610",
+      "preview": "Assalamualaikum Shahid!`Hum ek highly effective mo"
+    },
+    "+923104193369": {
+      "name": "Yaseen",
+      "time": "2026-04-28T20:37:18.203198",
+      "preview": "Salam Yaseen!`Hum 'Mosquito Busters PK' service st"
+    },
+    "+923346645230": {
+      "name": "Yuman",
+      "time": "2026-04-28T20:40:05.367879",
+      "preview": "Salam Yuman!`Dengue season shuru ho raha hai aur m"
+    },
+    "+923218541157": {
+      "name": "Waheed",
+      "time": "2026-04-28T20:43:07.476584",
+      "preview": "AOA Waheed!`Aaj kal har ghar mein mosquito problem"
+    },
+    "+923215390580": {
+      "name": "Alamgir",
+      "time": "2026-04-28T20:46:05.640332",
+      "preview": "AOA Alamgir!`Hum 'Mosquito Busters PK' ke naam se "
+    },
+    "+923008567881": {
+      "name": "Ayyub",
+      "time": "2026-04-28T20:48:35.241658",
+      "preview": "Assalamualaikum Ayyub!`Hum ek highly effective mos"
+    },
+    "+923348846272": {
+      "name": "Jahan Aara",
+      "time": "2026-04-28T20:51:19.336129",
+      "preview": "Salam Jahan Aara!`Dengue season shuru ho raha hai "
+    },
+    "+923343724826": {
+      "name": "Zubair",
+      "time": "2026-04-28T20:57:31.387691",
+      "preview": "Assalamualaikum Zubair!`Hum ek highly effective mo"
+    }
+  },
+  "failed": {
+    "+923455599999": {
+      "name": "Musarat",
+      "time": "2026-04-28T18:10:35.960560",
+      "reason": "PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe"
+    }
+  },
+  "skipped": {
+    "+923008504833": {
+      "name": "Rajab",
+      "reason": "Not on WA",
+      "time": "2026-04-28T18:33:36.695195"
+    },
+    "+923485029013": {
+      "name": "Fawad",
+      "reason": "Not on WA",
+      "time": "2026-04-28T20:31:25.624404"
+    },
+    "+923008522899": {
+      "name": "Ejaz",
+      "reason": "Not on WA",
+      "time": "2026-04-28T20:36:34.577120"
+    },
+    "+923215179194": {
+      "name": "Shehzad",
+      "reason": "Not on WA",
+      "time": "2026-04-28T20:39:22.046751"
+    },
+    "+923335818949": {
+      "name": "Ibrar",
+      "reason": "Not on WA",
+      "time": "2026-04-28T20:42:15.208829"
+    },
+    "+923116888661": {
+      "name": "Khayyam",
+      "reason": "Not on WA",
+      "time": "2026-04-28T20:42:21.552842"
+    },
+    "+923342677616": {
+      "name": "Jalila",
+      "reason": "Not on WA",
+      "time": "2026-04-28T20:53:06.948585"
+    }
+  },
+  "stats": {
+    "total": 571,
+    "sent": 18,
+    "failed": 0,
+    "skipped": 8
+  },
+  "last_updated": "2026-04-28T20:57:31.389742"
+}

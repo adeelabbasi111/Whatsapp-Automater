@@ -1,0 +1,26 @@
+[2026-04-28 17:52:22] SUCCESS  | Nida                      | +923334388816   | 
+[2026-04-28 17:54:50] SUCCESS  | Rafique                   | +923215506295   |
+[2026-04-28 17:59:43] SUCCESS  | Walayat                   | +923008506822   |
+[2026-04-28 18:10:35] FAILED   | Musarat                   | +923455599999   | PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe
+[2026-04-28 18:17:14] SUCCESS  | Asif                      | +923135000051   | 
+[2026-04-28 18:32:29] SKIPPED  | Rajab                     | +923008504833   | No WA
+[2026-04-28 18:33:36] SKIPPED  | Rajab                     | +923008504833   | No WA
+[2026-04-28 18:34:59] SUCCESS  | Saim                      | +923007977055   | 
+[2026-04-28 18:37:29] SUCCESS  | Najam                     | +923336110782   | 
+[2026-04-28 18:40:29] SUCCESS  | Zahida                    | +923349990222   | 
+[2026-04-28 20:29:09] SUCCESS  | Afzal                     | +923215155630   | 
+[2026-04-28 20:31:25] SKIPPED  | Fawad                     | +923485029013   | No WA
+[2026-04-28 20:32:17] SUCCESS  | Sajid                     | +923458501717   | 
+[2026-04-28 20:35:05] SUCCESS  | Shahid                    | +923215225889   | 
+[2026-04-28 20:36:34] SKIPPED  | Ejaz                      | +923008522899   | No WA
+[2026-04-28 20:37:18] SUCCESS  | Yaseen                    | +923104193369   | 
+[2026-04-28 20:39:22] SKIPPED  | Shehzad                   | +923215179194   | No WA
+[2026-04-28 20:40:05] SUCCESS  | Yuman                     | +923346645230   | 
+[2026-04-28 20:42:15] SKIPPED  | Ibrar                     | +923335818949   | No WA
+[2026-04-28 20:42:21] SKIPPED  | Khayyam                   | +923116888661   | No WA
+[2026-04-28 20:43:07] SUCCESS  | Waheed                    | +923218541157   | 
+[2026-04-28 20:46:05] SUCCESS  | Alamgir                   | +923215390580   | 
+[2026-04-28 20:48:35] SUCCESS  | Ayyub                     | +923008567881   | 
+[2026-04-28 20:51:19] SUCCESS  | Jahan Aara                | +923348846272   | 
+[2026-04-28 20:53:06] SKIPPED  | Jalila                    | +923342677616   | No WA
+[2026-04-28 20:57:31] SUCCESS  | Zubair                    | +923343724826   | 
