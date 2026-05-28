@@ -151,7 +151,7 @@ class WhatsApp:
         print(f"🔍 Starting chat with: {number}")
 
         # 1. New Chat button pe click karo
-        if not self.wait_for_image("new_chat.png", timeout=30, confidence=0.6):
+        if not self.wait_for_image("new_chat.png", timeout=30, confidence=0.9):
             print("❌ New Chat button not found");
             return False
         try:

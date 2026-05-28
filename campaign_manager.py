@@ -56,26 +56,21 @@ class WhatsAppCampaignManager:
     def get_pending(self) -> List[Dict]:
         return [c for c in self.contacts if c["phone"] not in self.state["sent"] and c["phone"] not in self.state["failed"]]
 
+    import random
 
-    def generate_message(self,name):
-        messages =[
-            f"Assalamualaikum {name}!`Dengue aur mosquitoes ka issue aaj kal kaafi serious ho raha hai. Hum 'Mosquito Busters PK' ke through professional spray service offer kar rahay Hain. 🦟`Ek spray aur poori garmiyan mukammal relief! Hum furniture aur saman ki safety ke liye protective sheets use karte hain. 🛡️`Agar aap interest rakhte hain, toh details ke liye reply karein. ✅",
+    def generate_message(self, name):
 
-            f"Salam {name}!`Mosquitoes aur dengue ke barhtay khatray ke paish-e-nazar, Hum premium mosquito spray service provide kar rahay Hain. 💯`Strong results aur completely safe process ki guarantee. Full protection ke sath clean kaam hota hai taake aapka ghar mehfooz rahe. 🏡`Agar service try karni ho toh zarur batayein. ✨",
+        with open("Data/messages.txt", "r", encoding="utf-8") as file:
+            content = file.read()
 
-            f"AOA {name}!`Hum 'Mosquito Busters PK' ke naam se professional spray service start kar rahay Hain. 🚀`Ek dafa ke spray se long-term relief milta hai. Proper equipment aur protective sheets use hoti hain taake aapka ghar bilkul neat rahayy. 💧`Interested hon toh kindly reply kar dein. 📋",
+        messages = content.split("---")
 
-            f"Salam {name}!`Dengue season shuru ho raha hai aur macharon ki tadad mein izafa ho raha hai. Hum aapke liye ek reliable spray service lain Hain. 🌿`Clean work + safe chemicals, jo macharon ka mukammal khatma karein. 🛑`Service schedule karni ho toh message kar dein. 📅",
+        # extra spaces/newlines remove
+        messages = [msg.strip() for msg in messages if msg.strip()]
 
-            f"Assalamualaikum {name}!`Hum ek highly effective mosquito control service start kar rahay Hain. Ek proper spray ke baad hi aapko noticeable reduction milta hai. 📉`Safe chemicals aur professional setup ke sath mukammal tasalli wala kaam kiya jata hai. 🛠️`Interested hon toh zarur rabta karein. 📞",
+        selected_message = random.choice(messages)
 
-            f"Salam {name}!`Garmiyon mein mosquitoes avoid karna mushkil hota hai, lekin hum aapke liye iska proper solution laye hain. ☀️`'Mosquito Busters PK' — strong spray + 100% safe process. 🛡️`Agar aapko is service ki zaroorat ho toh message kar dein. ✉️",
-
-            f"AOA {name}!`Aaj kal har ghar mein mosquito problem kaafi common ho gayi hai. Hum ek effective spray service provide kar rahay Hain jo guaranteed results deti hai. 🎯`Ghar ka saman cover kar ke bilkul clean aur safe kaam kiya jata hai. 🧹`Agar service try karni ho toh bataiye. 📌",
-
-            f"Salam {name}!`Hum 'Mosquito Busters PK' service start kar chukay Hain — dengue prevention aur long-lasting protection ke liye. 🛡️`Hamari service mein sirf professional equipment aur family-safe chemicals use hote hain. 🧪`Booking ya details ke liye kindly reply kar dein. ✅"]
-
-        return random.choice(messages)
+        return selected_message.format(name=name)
 
     def run(self, bot: Any, delay_min=60, delay_max=150, batch_limit: Optional[int]=None, retry_failed=False):
         if not bot: raise ValueError("Bot instance required.")

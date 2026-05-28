@@ -84,6 +84,11 @@
       "name": "Zubair",
       "time": "2026-04-28T20:57:31.387691",
       "preview": "Assalamualaikum Zubair!`Hum ek highly effective mo"
+    },
+    "+923215773211": {
+      "name": "Adeel",
+      "time": "2026-05-28T15:47:26.486471",
+      "preview": "Greetings Adeel!This project uses external text fi"
     }
   },
   "failed": {
@@ -128,13 +133,18 @@
       "name": "Jalila",
       "reason": "Not on WA",
       "time": "2026-04-28T20:53:06.948585"
+    },
+    "+923215773211": {
+      "name": "Adeel",
+      "reason": "Not on WA",
+      "time": "2026-05-28T15:46:48.662079"
     }
   },
   "stats": {
-    "total": 571,
-    "sent": 18,
+    "total": 1,
+    "sent": 19,
     "failed": 0,
-    "skipped": 8
+    "skipped": 9
   },
-  "last_updated": "2026-04-28T20:57:31.389742"
+  "last_updated": "2026-05-28T15:47:26.510710"
 }

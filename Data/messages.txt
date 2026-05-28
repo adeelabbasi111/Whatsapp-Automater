@@ -1,0 +1,5 @@
+Hello {name}!This is a sample random message for testing purposes. 🚀You can replace this text with anything you want later. ✅
+---
+Hi {name}!Lorem ipsum style dummy content goes here for GitHub demo files. 📂Everything here is only placeholder text. ✨
+---
+Greetings {name}!This project uses external text files to load random messages dynamically. 🔥Pretty clean and scalable setup. 💻

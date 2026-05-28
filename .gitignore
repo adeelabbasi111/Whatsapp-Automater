@@ -2,6 +2,9 @@
 __pycache__/
 *.pyc
 
+Data/my_contacts.csv
+Data/my_messages.txt
+
 # Virtual environment
 venv/
 env/
